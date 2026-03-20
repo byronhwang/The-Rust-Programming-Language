@@ -62,7 +62,7 @@
           };
         in {
           default = pkgs.mkShellNoCC {
-            name = "proj";
+            name = "rust-book";
             hardeningDisable = [ "fortify" ];
             packages = with pkgs; [ pkg-config gcc15 ];
             shellHook = "";
